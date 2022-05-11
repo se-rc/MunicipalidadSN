@@ -5,12 +5,14 @@ import { AppComponent } from './app.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { HeaderNavbarComponent } from './header-navbar/header-navbar.component';
 import { FooterComponent } from './footer/footer.component';
+import { NoticiasComponent } from './noticias/noticias.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderNavbarComponent,
-    FooterComponent
+    FooterComponent,
+    NoticiasComponent
   ],
   imports: [
     BrowserModule,
