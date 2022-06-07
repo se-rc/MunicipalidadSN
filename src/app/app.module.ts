@@ -6,17 +6,25 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { HeaderNavbarComponent } from './header-navbar/header-navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { NoticiasComponent } from './noticias/noticias.component';
+import { JuzgadoPoliciaComponent } from './juzgado-policia/juzgado-policia.component';
+import { RouterModule } from '@angular/router';
+import { HomeComponent } from './home/home.component';
+import { APP_ROUTING } from './app.routes';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderNavbarComponent,
     FooterComponent,
-    NoticiasComponent
+    NoticiasComponent,
+    JuzgadoPoliciaComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    APP_ROUTING
 
   ],
   providers: [],
