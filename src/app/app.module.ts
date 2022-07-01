@@ -10,6 +10,7 @@ import { JuzgadoPoliciaComponent } from './juzgado-policia/juzgado-policia.compo
 import { RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { APP_ROUTING } from './app.routes';
+import { FonosContactoComponent } from './fonos-contacto/fonos-contacto.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { APP_ROUTING } from './app.routes';
     FooterComponent,
     NoticiasComponent,
     JuzgadoPoliciaComponent,
-    HomeComponent
+    HomeComponent,
+    FonosContactoComponent
   ],
   imports: [
     BrowserModule,
