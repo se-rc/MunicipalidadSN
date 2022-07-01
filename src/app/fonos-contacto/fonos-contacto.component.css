@@ -1,0 +1,29 @@
+
+h4{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card{
+    padding: 20px;
+    margin: 20px;
+}
+
+#oficina{
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+
+.elemento{
+    display: flex;
+}
+
+i{
+    color: #E04D01;
+}
+
+.container{
+    padding: 15px;
+}
