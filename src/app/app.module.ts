@@ -11,6 +11,7 @@ import { RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { APP_ROUTING } from './app.routes';
 import { FonosContactoComponent } from './fonos-contacto/fonos-contacto.component';
+import { AlcaldeComponent } from './alcalde/alcalde.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { FonosContactoComponent } from './fonos-contacto/fonos-contacto.componen
     NoticiasComponent,
     JuzgadoPoliciaComponent,
     HomeComponent,
-    FonosContactoComponent
+    FonosContactoComponent,
+    AlcaldeComponent
   ],
   imports: [
     BrowserModule,
