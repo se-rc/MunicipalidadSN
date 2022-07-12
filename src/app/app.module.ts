@@ -28,10 +28,10 @@ import { AlcaldeComponent } from './alcalde/alcalde.component';
     JuzgadoPoliciaComponent,
     HomeComponent,
     FonosContactoComponent,
-     AlcaldeComponent
+     AlcaldeComponent,
     NoticiasFechasComponent,
     NoticiaComponent,
-    FechasComponent,
+    FechasComponent
     
 
   ],
