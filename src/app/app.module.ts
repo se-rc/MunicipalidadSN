@@ -16,6 +16,8 @@ import { FonosContactoComponent } from './fonos-contacto/fonos-contacto.componen
 import { NoticiasFechasComponent } from './noticias-fechas/noticias-fechas.component';
 import { NoticiaComponent } from './noticias-fechas/noticia/noticia.component';
 import { FechasComponent } from './noticias-fechas/fechas/fechas.component';
+import { AlcaldeComponent } from './alcalde/alcalde.component';
+
 
 
 @NgModule({
@@ -26,10 +28,12 @@ import { FechasComponent } from './noticias-fechas/fechas/fechas.component';
     JuzgadoPoliciaComponent,
     HomeComponent,
     FonosContactoComponent,
+     AlcaldeComponent
     NoticiasFechasComponent,
     NoticiaComponent,
     FechasComponent,
     
+
   ],
   imports: [
     BrowserModule,
